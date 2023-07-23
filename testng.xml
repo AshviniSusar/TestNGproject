@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="Demo2.Test2"/>
+      <class name="Demo1.AssertionsDemo"/>
+      <class name="Demo1.OtherAnnotations"/>
+      <class name="Demo1.dataProviderDemo"/>
+      <class name="Demo1.GroupsDemo"/>
+      <class name="Demo1.DependsOnDemo"/>
+      <class name="Demo1.parameterization"/>
+      <class name="Demo1.HardAssert_And_SoftAssert"/>
+      <class name="Demo1.Test1"/>
+      <class name="TestNG.testng_project.AppTest"/>
+      <class name="Demo1.PriorityDemo"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
